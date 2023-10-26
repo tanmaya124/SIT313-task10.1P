@@ -1,0 +1,54 @@
+.custom-header {
+  background-color: royalblue;
+  padding: 5px 3;
+  box-shadow: 0 2px 4px rgba(157, 150, 14, 0.1);
+}
+
+.custom-header .highlight {
+  color: #a5dbb7;
+  font-weight: bold;
+}
+
+.custom-header .logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+.custom-header .search-input {
+  width: 250px;
+  color: #333;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.custom-header .ui.primary.button {
+  background-color: #a5dbb7;
+  color: #333;
+  font-size: 14px;
+}
+
+.custom-header .ui.dropdown {
+  color: #333;
+  font-size: 14px;
+}
+
+.custom-header .ui.avatar.image {
+  margin-right: 5px;
+}
+
+.btn Button {
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.img img {
+  width: 78%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}

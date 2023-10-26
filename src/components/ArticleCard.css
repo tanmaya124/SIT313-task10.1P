@@ -1,0 +1,49 @@
+.article-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.article-card:hover {
+  transform: translateY(-10px);
+}
+
+.article-card img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.article-card .card-content {
+  padding: 16px;
+}
+
+.article-card .card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.article-card .card-description {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.article-card .card-meta {
+  margin-top: 10px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.article-card .extra {
+  padding: 16px;
+  background-color: #f0f0f0;
+}
+
+.article-card button {
+  width: 100%;
+}

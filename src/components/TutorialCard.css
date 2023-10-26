@@ -1,0 +1,49 @@
+.tutorial-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.tutorial-card:hover {
+  transform: translateY(-5px);
+}
+
+.tutorial-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.tutorial-card .card-content {
+  padding: 16px;
+}
+
+.tutorial-card .card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.tutorial-card .card-description {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.tutorial-card .card-meta {
+  margin-top: 10px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.tutorial-card .extra {
+  padding: 16px;
+  background-color: #f0f0f0;
+}
+
+.tutorial-card button {
+  width: 100%;
+  margin-top: 6px;
+}
