@@ -1,0 +1,43 @@
+.Top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(125, 100, 100, 0.642);
+    height: 70px;
+    border: 7px solid whitesmoke;
+    border-radius: 12px;
+    color: rgb(232, 224, 224);
+    margin-top: 20px;
+}
+
+.Top button{
+    border-radius: 23px;
+    padding: 10px 30px;
+}
+
+.btn1{
+    margin: 0px 10px;
+}
+
+
+.Home{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+html{
+    background-color: black;
+}
+
+
+.searchBar{
+    margin: 0px 15px;
+    color: rgb(128, 160, 160);
+}
+
+
+.searchBar input {
+    padding: 10px 20px; /* Adjust the right padding value as needed */
+    border-radius: 23px;
+    color: rgb(66, 133, 192);
+}

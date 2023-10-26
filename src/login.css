@@ -1,0 +1,72 @@
+.Form {
+    border: 2px solid #FF5733;
+    width: 50%;
+    max-width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #b4dfdf;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .Label {
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF5733;
+  }
+  
+  .LoginButton {
+    background-color: #92d88b;
+    border: 2px solid #C70039;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  input:focus {
+    background-color: #FFC300;
+    outline: none;
+  }
+  
+  input {
+    background-color: #f1e9e9;
+    border: 2px solid #b4dfdf;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .FormStyle {
+    text-align: center;
+    background-color: #E0E4E2;
+  }
+  
+  button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #92d88b;
+    border: 2px solid #C70039;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
